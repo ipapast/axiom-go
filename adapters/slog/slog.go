@@ -108,6 +108,7 @@ type Handler struct {
 //   - AXIOM_TOKEN
 //   - AXIOM_ORG_ID (only when using a personal token)
 //   - AXIOM_DATASET
+//   - AXIOM_URL (only when you want to override the region - defaults to US)
 //
 // The configuration can be set manually using options which are prefixed with
 // "Set".
